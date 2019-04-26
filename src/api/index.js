@@ -115,7 +115,7 @@ export const initDepartment = (params) => {
 export const loadDepartment = (id, params) => {
     return getRequest(`/department/getByParentId/${id}`, params)
 }
-// 添加部门
+// 添加部门22
 export const addDepartment = (params) => {
     return postRequest('/department/add', params)
 }
