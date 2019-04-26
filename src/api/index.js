@@ -111,7 +111,7 @@ export const deleteUser = (ids, params) => {
 export const initDepartment = (params) => {
     return getRequest('/department/getByParentId/0', params)
 }
-// 加载部门子级数据
+// 加载部门子级数据2019
 export const loadDepartment = (id, params) => {
     return getRequest(`/department/getByParentId/${id}`, params)
 }
