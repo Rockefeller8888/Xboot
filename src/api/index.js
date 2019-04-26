@@ -33,7 +33,7 @@ export const ipInfo = (params) => {
 export const userInfoEdit = (params) => {
     return postRequest('/user/edit', params)
 }
-// 个人中心修改密码
+// 个人中心修改密码2019
 export const changePass = (params) => {
     return postRequest('/user/modifyPass', params)
 }
