@@ -10,7 +10,7 @@ const lang = window.localStorage.lang || localLang || 'zh-CN';
 
 Vue.config.lang = lang;
 
-// 多语言配置2019
+// 多语言配置
 const locales = Locales;
 const mergeZH = Object.assign(zhLocale, locales['zh-CN']);
 const mergeEN = Object.assign(enLocale, locales['en-US']);
